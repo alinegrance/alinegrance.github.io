@@ -4,61 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Aline Grance</title>
   </head>
   <body>
-    <img
-      id="profile-pic"
-      src="images/profile-picture.jpg"
-      alt="imagem de perfil da Aline sorrindo"
-      width="200px"
-    />
-    <h1>Aline Grance de Oliveira</h1>
-    <h2>Navegador</h2>
-    <ul>
-      <li><a href="#descricao">Descrição</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#lorem-ipsum">Lorem Ipsum</a></li>
-    </ul>
-    <h3 id="descricao">Descrição</h3>
-    <p>
-      Me chamo Aline, tenho 30 anos, nascida em João Pessoa na Paraíba,
-      atualmente morando em São Paulo - SP.
-    </p>
-    <h3 id="habilidades">Habilidades</h3>
-    <ul>
-      <li><strong>Prática</strong></li>
-      <li>Problem Solver</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+    <div class="top">
+      <img
+        id="profile-pic"
+        src="images/profile-picture.jpg"
+        alt="imagem de perfil da Aline sorrindo"
+        width="200px"
+      />
+      <h1>Aline Grance de Oliveira</h1>
+      <p>
+        Hi, I'm glad you're here! <br />
+        I'm Aline, a Chemistry teacher by training, but now I'm switching career
+        to software engineering.<br />
+        During the pandemics, I started studying and practicing front-end
+        development with HTML, CSS and, of course, Javascript, and found a new
+        passion! <br />Yay! <br />Currently, I'm a student of full-stack web
+        development at <a class="trybe" href="https://betrybe.com">Trybe</a>.
+      </p>
+    </div>
+    <div class="middle">
+      <h2>Discover me</h2>
+      <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#lorem-ipsum">Lorem Ipsum</a></li>
+      </ul>
+    </div>
+    <div class="bottom">
+      <h3 id="skills">Skills</h3>
+      <ul>
+        <li>Problem Solver</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <h3 id="hobbies">Hobbies</h3>
+      <ul>
+        <li>Cat lover</li>
+        <li>Fog lover</li>
+        <li>Cooking</li>
+        <li>Video-games</li>
+      </ul>
 
-    <h3 id="lorem-ipsum">Lorem Ipsum</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Eu volutpat odio
-      facilisis mauris sit amet. Faucibus vitae aliquet nec ullamcorper. At
-      volutpat diam ut venenatis tellus in metus. Sociis natoque penatibus et
-      magnis dis. Auctor elit sed vulputate mi sit amet mauris. Est sit amet
-      facilisis magna. Blandit volutpat maecenas volutpat blandit aliquam etiam
-      erat. Sed tempus urna et pharetra pharetra massa massa ultricies. Duis at
-      consectetur lorem donec massa sapien faucibus. Eget nulla facilisi etiam
-      dignissim diam quis. Vel turpis nunc eget lorem dolor sed viverra.
-      Facilisis gravida neque convallis a cras. Egestas egestas fringilla
-      phasellus faucibus scelerisque. Elit scelerisque mauris pellentesque
-      pulvinar pellentesque habitant morbi. Sagittis vitae et leo duis ut diam
-      quam.
-    </p>
-    <p>
-      Maneiro esse texto, né? Da pra gerar mais textos como esse, pra você usar
-      de <em>placeholder</em>
-      <a href="https://loremipsum.io/generator/?n=6&t=p" target="_blank"
-        >aqui</a
-      >
-      👍
-    </p>
-
-    <a href="#profile-pic">Back to the top 🤪</a>
+      <h3 id="lorem-ipsum">Lorem Ipsum</h3>
+      <p class="lorem-ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Eu volutpat odio
+        facilisis mauris sit amet. Faucibus vitae aliquet nec ullamcorper. At
+        volutpat diam ut venenatis tellus in metus. Sociis natoque penatibus et
+        magnis dis. Auctor elit sed vulputate mi sit amet mauris. Est sit amet
+        facilisis magna. Blandit volutpat maecenas volutpat blandit aliquam
+        etiam erat. Sed tempus urna et pharetra pharetra massa massa ultricies.
+        Duis at consectetur lorem donec massa sapien faucibus. Eget nulla
+        facilisi etiam dignissim diam quis. Vel turpis nunc eget lorem dolor sed
+        viverra. Facilisis gravida neque convallis a cras. Egestas egestas
+        fringilla phasellus faucibus scelerisque. Elit scelerisque mauris
+        pellentesque pulvinar pellentesque habitant morbi. Sagittis vitae et leo
+        duis ut diam quam.
+      </p>
+      <p class="lorem-ipsum">
+        Cool, right? To generate more cool <em>placeholder</em> texts like this one you can go 
+        <a href="https://loremipsum.io/generator/?n=6&t=p" target="_blank"
+          >here</a
+        >
+        👍
+      </p>
+    </div>
+    <div class="footer">
+      <a href="#profile-pic">Back to the top 🤪</a>
+    </div>
   </body>
 </html>

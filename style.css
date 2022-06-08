@@ -1,0 +1,49 @@
+body {
+  background-color: #5f7161;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #d0c9c0;
+}
+
+h1 {
+  color: #d0c9c0;
+}
+
+h2 {
+  color: #5f7161;
+  margin: 10px;
+}
+
+a {
+  color: #6d8b74;
+  text-decoration: none;
+}
+
+.trybe {
+  color: #11a36a;
+  text-decoration: none;
+}
+
+.trybe:hover {
+  color: #0a7e51;
+}
+
+.top {
+  text-align: center;
+}
+
+.middle {
+  background-color: #d0c9c0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.lorem-ipsum {
+  padding-left: 25px;
+}
+
+.footer {
+  background-color:  #d0c9c0;
+  text-align: center;
+  padding: 20px;
+}
