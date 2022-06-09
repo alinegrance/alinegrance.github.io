@@ -49,6 +49,15 @@ a {
   padding: 20px;
 }
 
-#profile-pic {
-  border-radius: 50%;
+.img {
+  display: inline-block;
+  max-width: 50%;
+  padding: 30px 25px;
+}
+
+.profile-text {
+  text-align: center;
+  display: inline-block;
+  max-width: 50%;
+  padding: 30px 25px;
 }
