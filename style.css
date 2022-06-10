@@ -1,22 +1,43 @@
 body {
-  background-color: #5f7161;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: #d0c9c0;
 }
 
-h1 {
-  color: #d0c9c0;
+.top {
+  background-image: url("images/background-img.png");
+  background-size: cover;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  /* height: 350px; */
+  padding: 15px;
+  /* margin: 25px; */
 }
 
-h2 {
-  color: #5f7161;
-  margin: 10px;
+.tittle {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
-a {
+.profile-text {
   color: #6d8b74;
-  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.img {
+  /* position: absolute; */
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+
+#profile-pic {
+  border-radius: 10%;
 }
 
 .trybe {
@@ -28,8 +49,22 @@ a {
   color: #0a7e51;
 }
 
-.top {
-  text-align: center;
+
+
+
+
+
+
+
+/* 
+h2 {
+  color: #5f7161;
+  margin: 10px;
+}
+
+a {
+  color: #6d8b74;
+  text-decoration: none;
 }
 
 .middle {
@@ -48,16 +83,4 @@ a {
   text-align: center;
   padding: 20px;
 }
-
-.img {
-  display: inline-block;
-  max-width: 50%;
-  padding: 30px 25px;
-}
-
-.profile-text {
-  text-align: center;
-  display: inline-block;
-  max-width: 50%;
-  padding: 30px 25px;
-}
+ */
