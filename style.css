@@ -1,86 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  color: #d0c9c0;
+  /* background-color: rgb(19, 23, 18); */
+  background-color: rgb(212, 237, 218);
+  font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.toggle-theme {
+  width: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
-.top {
-  background-image: url("images/background-img.png");
-  background-size: cover;
-  border-style: solid;
-  border-radius: 10px;
-  border-width: 5px;
-  /* height: 350px; */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  color: rgb(6, 194, 6);
+  font-weight:bold;
+  font-size: 3em;
+  padding-top: 35px;
+}
+
+.social-media-links {
+  display: flex;
+  list-style: none;
+  justify-content:center;
+  padding: 0;
+}
+
+.social-media-links a {
+  width: 80px;
   padding: 15px;
-  /* margin: 25px; */
 }
 
-.tittle {
-  margin-left: 25px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+.social-media-links img {
+  width: 100%;
+  height: 100%;
 }
 
-.profile-text {
-  color: #6d8b74;
+.flex-box {
+  display: flex;
+}
+
+main {
+  display: flex;
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.about-me {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+aside {
   text-align: center;
-  display: inline-block;
-  width: 50%;
 }
 
-.img {
-  /* position: absolute; */
-  text-align: center;
-  display: inline-block;
-  width: 50%;
-  float: right;
-}
-
-#profile-pic {
-  border-radius: 10%;
-}
-
-.trybe {
-  color: #11a36a;
-  text-decoration: none;
-}
-
-.trybe:hover {
-  color: #0a7e51;
-}
-
-
-
-
-
-
-
-
-/* 
-h2 {
-  color: #5f7161;
+.profile-img {
+  width: 45%;
+  border: 1px solid black;
   margin: 10px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px  rgb(6, 194, 6);
 }
 
-a {
-  color: #6d8b74;
-  text-decoration: none;
+.portfolio {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.middle {
-  background-color: #d0c9c0;
-  color: #6d8b74;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.lorem-ipsum {
-  padding-left: 25px;
-}
-
-.footer {
-  background-color:  #d0c9c0;
-  text-align: center;
+.project-widget {
+  width: 350px;
+  height: 350px;
   padding: 20px;
 }
- */
+
+.preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 30px;
+}
+
+.preview:hover {
+  transform: scale(1.2);
+}
