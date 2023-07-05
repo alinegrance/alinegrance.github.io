@@ -14,10 +14,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hey there, I'm <span className='text-[#689044]'>Aline</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#689044]'>Aline</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Lorem ipsum, text text text  <br className='sm:block hidden'/>
-            and some more text, text text
+          Lorem ipsum dolor sit amet, <br className='sm:block hidden'/>
+          consectetur adipiscing elit, sed do
           </p>
         </div>
 
@@ -28,7 +28,7 @@ const Hero = () => {
         <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
           <a href='#about'>
             <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-              <motion.dev
+              <motion.div
                 animate={{
                   y: [0, 24, 0]
                 }}
