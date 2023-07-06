@@ -263,3 +263,5 @@ const projects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
+const blah = () => {a: 1};
