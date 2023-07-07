@@ -137,6 +137,14 @@ const testimonials = [
     company: "Prefeitura Municipal de Florianópolis",
     image: "https://media.licdn.com/dms/image/D4D03AQFl4lFAUC05kg/profile-displayphoto-shrink_800_800/0/1687354674854?e=1694044800&v=beta&t=6eZcbjk6hUV-65JCT9Qx3hnmsOT2G69znyZEnp5Wsrg",
   },
+  {
+    testimonial:
+    `Aline is an exceptional developer! Her rigorous dedication and brilliance make her stand out in any project she engages with. It is an honor to have her as a friend and professional colleague.`,
+    name: "Ebraim Oliveira",
+    designation: "Colleague",
+    company: "Trybe",
+    image: "https://media.licdn.com/dms/image/D4D35AQFp22r7n4LNRw/profile-framedphoto-shrink_800_800/0/1677186810720?e=1689368400&v=beta&t=zEhWlL9_LGFlwgKTxJCClhREFfs633KhlY5r1aHlk_U",
+  },
 ];
 
 const projects = [
