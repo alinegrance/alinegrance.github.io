@@ -154,7 +154,7 @@ const projects = [
       "It is a travel planning through the Rick and Morty Universe API written in Crystal, backed by kemalcr and MySQL.",
     tags: [
       {
-        name: "cystal",
+        name: "crystal",
         color: "blue-text-gradient",
       },
       {
