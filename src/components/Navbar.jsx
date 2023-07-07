@@ -32,9 +32,9 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title
-                  ? "text-white"
+                  ? "text-[#689044]"
                   : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-[#689044] text-[18px] font-medium cursor-pointer`}
               onClick={()=> setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -57,7 +57,7 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title
-                  ? "text-white"
+                  ? "text-[#689044]"
                   : "text-secondary"
               } font-poppins font-medium cursor-pointer text-[16px]`}
               onClick={()=> {
@@ -78,5 +78,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-{/*<p className='text-lime-300'>lalala</p>*/}

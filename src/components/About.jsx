@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4, text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        I am a former chemistry teacher who has recently transitioned into the field of web development. Over the past year, I have dedicated myself to studying and mastering various technologies including HTML, CSS, JavaScript, React, Node.js, MySQL, MongoDB, Git, and Docker. With a strong foundation in these skills, I am now seeking an exciting career opportunity in the web development industry, where I can apply my knowledge and passion to create innovative and user-friendly web solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

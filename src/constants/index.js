@@ -1,28 +1,22 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  trybe,
+  java,
+  crystal,
+  python,
+  rickandmorty,
 } from "../assets";
 
 export const navLinks = [
@@ -46,17 +40,13 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
-  },
+    title: "React Developer",
+    icon: mobile,
+  }
 ];
 
 const technologies = [
@@ -77,19 +67,27 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Crystal",
+    icon: crystal,
+  },
+  {
+    name: "React.js",
+    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
   },
   {
@@ -97,16 +95,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,55 +106,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Web development student",
+    company_name: "Trybe",
+    icon: trybe,
+    iconBg: "#76bc90",
+    date: "May 2022 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I have learned the foundational concepts of web development acquiring a comprehensive understanding of both frontend and backend development.",
+      "Through my studies, I have honed my communication, teamwork, and problem-solving abilities.",
+      "I have actively assisted other students in their web development journey. By sharing my knowledge, providing guidance, and offering support.",
     ],
   },
 ];
@@ -172,96 +122,49 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    `Contei com a Aline no meu time Instrução do curso de Desenvolvimento Backend da Trybe, ela atuou muito bem, guiando monitorias para tirar as dúvidas de desenvolvimento dos projetos que a pessoas estudantes realizaram. (Docker, Node.Js, Typescript, MongoDB, Mysql Sequelize).
+    Consistência na dedicação e carisma e empatia com quem esta iniciando a jornada. É umas das caracteríscias que valorizei no trabalho com a Aline! Vlw!`,
+    name: "William Marcontes",
+    designation: "Programmer Backend | Computer Science Teacher/Technology Specialist | Agilist",
+    company: "Trybe",
+    image: "https://media.licdn.com/dms/image/C4D03AQHS3r7c-wFqUw/profile-displayphoto-shrink_800_800/0/1661174428630?e=1694044800&v=beta&t=aAIwyjWsyU-Ju5cU20VDAR9n3QKbmUno0QMPYQ5KDtI",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    `A Aline foi uma Summer de Instrução fantástica na minha turma na Trybe. Ela não apenas foi muito atenciosa e prestativa quando se tratou de responder às nossas perguntas e ajudar com projetos, mas também foi uma mestre em explicar conceitos de programação de maneira clara e concisa. Eu recomendo fortemente a Aline para quem procura um desenvolvedor disposto a escutar, a aprender coisas novas e a ajudar sempre que preciso!`,
+    name: "Joana Maria dos Santos",
+    designation: "Web Developer & Teacher",
+    company: "Prefeitura Municipal de Florianópolis",
+    image: "https://media.licdn.com/dms/image/D4D03AQFl4lFAUC05kg/profile-displayphoto-shrink_800_800/0/1687354674854?e=1694044800&v=beta&t=6eZcbjk6hUV-65JCT9Qx3hnmsOT2G69znyZEnp5Wsrg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Rick and Morty Travel Planner",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "It is a travel planning through the Rick and Morty Universe API written in Crystal, backed by kemalcr and MySQL.",
     tags: [
       {
-        name: "react",
+        name: "cystal",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "kemal",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
+        name: "docker",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: rickandmorty,
+    source_code_link: "https://github.com/alinegrance/rick-and-morty-travel-planner",
   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
-
-const blah = () => {a: 1};
