@@ -149,9 +149,9 @@ const testimonials = [
     testimonial:
     `Eu trabalhei com a Aline na Trybe , trabalhávamos juntas como summer ,ela é uma pessoa maravilhosa, muito colaborativa, inteligente, ela consegue passar o seu conhecimento a diante e explicar de forma clara sempre dando o seu melhor para resolver os problemas e ajudar os alunos. Ela é uma ótima mentora e com toda a certeza será uma grande líder .`,
     name: "Caren Pontes",
-    designation: "Web Developer Full-Stack",
+    designation:  "Web Developer Full-Stack",
     company: "G1 Learn",
-    image:  "https://media.licdn.com/dms/image/D4D03AQGm6pRhNytGJw/profile-displayphoto-shrink_800_800/0/1688568436300?e=1694649600&v=beta&t=YVaSvMMyNpK4MO4BUjB3w8jT-Z4U4C_UzRXClR3Qqew"
+    image: "https://media.licdn.com/dms/image/D4D03AQGm6pRhNytGJw/profile-displayphoto-shrink_800_800/0/1688568436300?e=1694649600&v=beta&t=YVaSvMMyNpK4MO4BUjB3w8jT-Z4U4C_UzRXClR3Qqew",
   },
 ];
 
